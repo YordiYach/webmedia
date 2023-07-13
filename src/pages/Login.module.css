@@ -1,0 +1,56 @@
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #DDE6ED;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #27374D;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #DDE6ED;
+}
+
+.button {
+    background-color: #27374D;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.description {
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
